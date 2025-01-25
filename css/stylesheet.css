@@ -1,4 +1,7 @@
-.container {
-    border: 1px solids;
-    background-color: gray;
-    border-bottom: chartreuse;
+.form-group {
+  display: flex;
+  justify-content: space-between;
+}
+.input-grouo {
+  margin-right: 10px;
+}
