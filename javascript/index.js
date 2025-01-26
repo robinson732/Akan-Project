@@ -32,4 +32,4 @@ function GenerateAkanName() {
     return;
   }
   // Generate the Akan name
-  
+  const akanName = gender === "male" ? maleNames[day] : femaleNames
