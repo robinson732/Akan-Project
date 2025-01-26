@@ -32,4 +32,7 @@ function GenerateAkanName() {
     return;
   }
   // Generate the Akan name
-  const akanName = gender === "male" ? maleNames[day] : femaleNames
+  const akanName = gender === "male" ? maleNames[day] : femaleNames[day];
+  //Display the Akan Name
+  alert("Congrates your Akan name is $(akanName)");
+}
