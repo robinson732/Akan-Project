@@ -27,12 +27,9 @@ function GenerateAkanName() {
   ];
   // Prompt for days of the week
   const day = parseInt(prompt("Enter the day of the week):"));
-  if (isNan(day) || day < 0 || day < 6) {
+  if (isNaN(day) || day < 0 || day > 6) {
     alert("Please add a valid day");
     return;
   }
-  //Generate the Akan name
-  const akanName = gender === "male" ? maleNames[day] : femaleNames[day];
-  //Display the Akan name
-  alert("Congratulations your Akan name is: ${akanName}");
-}
+  // Generate the Akan name
+  
